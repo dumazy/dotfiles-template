@@ -1,0 +1,9 @@
+[core]
+    editor = nano
+[color]
+    ui = auto
+[alias]
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    lg = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+[include]
+    path = ~/.gitconfig.included
